@@ -3,7 +3,7 @@ LABEL maintainer="wanggilim"
 LABEL maintainer_email="wanggilim@gmail.com"
 RUN apk update
 RUN apk upgrade
-RUN apk add bash tar unzip wget curl net-tools
+RUN apk add bash tar unzip wget curl net-tools openrc
 RUN ln -sf /bin/bash /bin/sh
 RUN echo "root:root" | chpasswd
 
