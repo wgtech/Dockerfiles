@@ -37,6 +37,8 @@ RUN ln -s idle3 idle \
 
 ENV PATH $PYTHON_HOME/bin:$PATH
 
+RUN pip install pip setuptools
+
 RUN python --version
 RUN pip --version
 
