@@ -2,8 +2,7 @@ FROM wanggilim/python-alpine:3.6.8-alpine3.9
 
 ENV DJANGO_VERSION 2.1.7
 
-RUN pip install --upgrade pip
-RUN pip install setuptools --upgrade
+RUN pip install --upgrade --ignore-installed pip setuptools
 RUN pip install django==$DJANGO_VERSION
 
 # Recommend directory for making your an django app.

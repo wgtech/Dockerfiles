@@ -1,7 +1,6 @@
 FROM wanggilim/python-alpine:latest
 
-RUN pip install --upgrade pip
-RUN pip install setuptools --upgrade
+RUN pip install --upgrade --ignore-installed pip setuptools
 RUN pip install django
 
 # Recommend directory for making your an django app.
