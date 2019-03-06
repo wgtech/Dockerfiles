@@ -10,7 +10,8 @@ RUN mkdir -p /app
 WORKDIR /app
 ADD ./djangoProject /app
 RUN pip install -r requirements.txt
+RUN pip install -r requirements2.txt
 
 RUN chmod +x ./*.sh
 
-ENTRYPOINT [ "./start-django.sh" ] 
+ENTRYPOINT [ "/bin/bash" ] 
