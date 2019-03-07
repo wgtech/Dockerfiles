@@ -5,7 +5,8 @@ LABEL maintainer_email="wanggilim@gmail.com"
 
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install bash tar unzip gzip wget \
-    build-essential curl net-tools sudo openssh-server openssh-client
+    build-essential curl net-tools sudo vim vim-doc \
+    openssh-server openssh-client openssl
 
 RUN ln -sf /bin/bash /bin/sh
 RUN systemctl enable ssh.socket
