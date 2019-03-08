@@ -1,0 +1,5 @@
+django==2.1.7
+django-extensions
+django-debug-toolbar
+numpy
+nose
