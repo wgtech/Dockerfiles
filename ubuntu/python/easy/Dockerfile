@@ -1,6 +1,6 @@
-FROM wanggilim/ubuntu:latest
-MAINTAINER wanggilim
-LABEL maintainer="wanggilim"
+FROM wgtech/ubuntu:latest
+MAINTAINER wgtech
+LABEL maintainer="wgtech"
 LABEL maintainer_email="wanggilim@gmail.com"
 
 RUN apt-get -y update && apt-get -y upgrade

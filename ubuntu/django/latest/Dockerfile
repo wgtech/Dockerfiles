@@ -1,4 +1,4 @@
-FROM wanggilim/python:latest
+FROM wgtech/python:latest
 
 RUN pip install --upgrade --ignore-installed pip setuptools
 RUN pip install django

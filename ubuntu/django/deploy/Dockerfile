@@ -1,4 +1,4 @@
-FROM wanggilim/python:easy-dev
+FROM wgtech/python:easy-dev
 
 RUN pip install --upgrade pip setuptools
 

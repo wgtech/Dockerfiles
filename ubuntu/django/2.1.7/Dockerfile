@@ -1,4 +1,4 @@
-FROM wanggilim/python:easy-dev
+FROM wgtech/python:easy-dev
 
 ENV DJANGO_VERSION 2.1.7
 
