@@ -6,7 +6,7 @@ LABEL maintainer_email="wanggilim@gmail.com"
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install bash locales tar unzip gzip wget \
     build-essential curl net-tools sudo vim vim-doc \
-    openssh-server openssh-client openssl
+    openssh-server openssh-client openssl inetutils-ping
 RUN ln -sf /bin/bash /bin/sh
 RUN systemctl enable ssh.socket
 RUN echo "root:root" | chpasswd
