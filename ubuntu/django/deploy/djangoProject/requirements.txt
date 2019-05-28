@@ -1,6 +1,14 @@
 django==2.1.7
 django-extensions
 django-debug-toolbar
+djangorestframework
+markdown
+django-filter
+django-crispy-forms
+django-guardian
+jsonfield
+#Mysqlclient
+coreapi
 numpy
 nose
 Pillow
